@@ -14,10 +14,10 @@ import streamlit.components.v1 as components
 
 # Load the dataset
 # Load the model
-model = load('C:/Users/opeow/OneDrive - Teesside University/16870 FOLDER/SCHOOL WORK/Year 2/PROJECTS/My project/best_xgb.joblib')
-Diabetes = pd.read_csv('C:/Users/opeow/OneDrive - Teesside University/16870 FOLDER/SCHOOL WORK/Year 2/PROJECTS/My project/diabetes_prediction_dataset.csv')
-scaler = load('C:/Users/opeow/OneDrive - Teesside University/16870 FOLDER/SCHOOL WORK/Year 2/PROJECTS/My project/scaler.joblib')
-image ='C:/Users/opeow/OneDrive - Teesside University/16870 FOLDER/SCHOOL WORK/Year 2/PROJECTS/My project/Diabetespicture.jpg'
+model = load(r'C:\Users\HP\Downloads\zip_file\best_xgb.joblib')
+Diabetes = pd.read_csv(r"C:\Users\HP\Downloads\zip_file\diabetes_prediction_dataset.csv")
+scaler = load(r"C:\Users\HP\Downloads\zip_file\scaler.joblib")
+image =r"C:\Users\HP\Downloads\zip_file\Diabetespicture.jpg"
 
 # # # Path to your project files (relative paths are advised)
 # MODEL_PATH = './models/best_xgb.joblib'
